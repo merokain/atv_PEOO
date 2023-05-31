@@ -1,11 +1,11 @@
 # Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário,
 # mostrando uma mensagem de erro e voltando a pedir as informações.
 
-nome=str(input('insira o nom de usuário: '))
-senha=str(input('insira sua senha: '))
+nome=str(input("Insira o nome de usuário: "))
+senha=str(input("Insira a senha: "))
 while nome==senha:
-  print('o nome de usuário e senha não podem ser iguais')
-  nome=str(input('insira o nom de usuário: '))
-  senha=str(input('insira sua senha: '))
+  print("O nome de usuário e senha não podem ser iguais")
+  nome=str(input("Insira o nome de usuário: "))
+  senha=str(input("Insira sua senha: "))
 else:
-  print('Bem vindo ao sistema,{}!'.format(nome))
+  print("Bem vindo ao sistema,{}".format(nome))
